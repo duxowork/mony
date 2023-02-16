@@ -1046,6 +1046,22 @@ h1 {
     margin: 10px 10px;
   }
 
+  #fitur .sec-fitur:hover {
+    border-color: var(--btn-color-dark);
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    height: 200px;
+    box-shadow: 0px 0px 30px rgba(5, 99, 47, 0.2);
+    transition: 0.8s;
+  }
+
   #fitur .sec-fitur img {
     width: 100px;
     height: auto;
@@ -1327,6 +1343,20 @@ h1 {
 
   #unduh .unduh-aplikasi .img-download img {
     height: 45px;
+  }
+
+  #unduh .bg-kanan {
+    display: none;
+  }
+
+  #unduh .bg-kiri img {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  #unduh {
+    display: block;
   }
 
   /* end unduh */

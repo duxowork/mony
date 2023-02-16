@@ -1078,11 +1078,16 @@ h1 {
   /* end fitur */
 
   /* anggota */
+  #anggota .container .section-title {
+    display: block;
+    margin: auto;
+  }
+
   #anggota .content .sec-fitur {
     display: block;
     position: relative;
     height: 200px;
-    margin: 0;
+    margin: 60px 0 0 0;
   }
 
   #anggota .content .sec-fitur .bg-half {
